@@ -1,0 +1,276 @@
+.profile-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details-container {
+  padding-left: 24px;
+}
+
+.laptop-profile-details-container {
+  display: none;
+}
+
+.profile-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.profile-pic-posts-followers-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+}
+
+.followers-following-list-container {
+  width: 80%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.count-description-list-item {
+}
+
+.count {
+  color: #262626;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.count-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #262626;
+  text-align: center;
+  margin: 0;
+}
+
+.profile-user-id {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.profile-bio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.stories-unordered-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.story-list-item {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #c7c7cc;
+  box-sizing: border-box;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.story-thumbnail-image {
+  width: 56px;
+  height: 56px;
+  border-radius: 48px;
+}
+
+.hr-line {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0.5px solid #c6c6c8;
+}
+
+.posts-container {
+  width: 100%;
+}
+
+.posts-icon-container {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.posts-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  margin-left: 8px;
+}
+
+.posts-unordered-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list-item {
+  list-style-type: none;
+  width: 30%;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.lg-profile-pic-container {
+  width: 30%;
+}
+
+.lg-profile-picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 96px;
+}
+
+.lg-user-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  color: #262626;
+  margin: 0;
+}
+
+.lg-followers-following-list-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.lg-count-description-list-item {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.lg-count {
+  color: #262626;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.lg-count-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #262626;
+  text-align: center;
+  margin: 0;
+}
+
+.lg-user-id {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin: 0;
+}
+
+.lg-user-bio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin: 0;
+}
+
+.lg-stories-unordered-list {
+  display: none;
+}
+
+.lg-story-list-item {
+  width: 86px;
+  height: 86px;
+  border-radius: 48px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.lg-story-thumbnail-image {
+  width: 78px;
+  height: 78px;
+  border-radius: 48px;
+}
+
+@media (min-width: 768px) {
+  .profile-container {
+    width: 70%;
+  }
+
+  .profile-details-container {
+    display: none;
+  }
+
+  .laptop-profile-details-container {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+  }
+
+  .lg-stories-unordered-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+}

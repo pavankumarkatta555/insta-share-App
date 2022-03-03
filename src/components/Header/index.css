@@ -1,0 +1,258 @@
+.nav-bg-container {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-responsive-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-app-icon-heading-container {
+  width: 50%;
+  display: flex;
+}
+
+.nav-heading-link-element {
+  width: 34%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-app-image {
+  width: 30%;
+  margin-right: 16px;
+}
+
+.nav-app-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.devices-dividing-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-lg-list-container {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-lg-search-list-item {
+  width: 210px;
+  height: 28px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-lg-search-element {
+  width: 85%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #989898;
+  padding-left: 8px;
+}
+
+.search-icon-btn-element {
+  height: 100%;
+  width: 15%;
+  background-color: #dbdbdb;
+  border: none;
+  outline: none;
+  border-radius: 0px 2px 2px 0px;
+  color: #989898;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.home-profile-list-items {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.home-profile-buttons {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+}
+
+.nav-logout-button {
+  background: #4094ef;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 84px;
+  height: 32px;
+  padding: 8px, 24px, 8px, 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.menu-icon-btn {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .nav-responsive-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-app-icon-heading-container {
+    width: 50%;
+  }
+
+  .nav-heading-link-element {
+    width: 100%;
+  }
+
+  .nav-app-image {
+    width: 55px;
+  }
+
+  .nav-app-heading {
+    font-size: 18px;
+  }
+
+  .nav-lg-list-container {
+    display: none;
+  }
+
+  .devices-dividing-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-icon-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+  }
+
+  .options-image {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.sm-display-options-container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-options-responsive-container {
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sm-options-unordered-list-container {
+  width: 86%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.sm-options-link {
+  text-decoration: none;
+}
+
+.sm-options-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.sm-logout-button {
+  background: #4094ef;
+  border-radius: 4px;
+  width: 86px;
+  height: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.close-icon-btn {
+  background: #262626;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-btns {
+  color: #4094ef;
+}
